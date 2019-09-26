@@ -13,7 +13,8 @@ namespace recursionLearn
             Console.WriteLine(S(11));
             
         }
-
+        //The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.
+        //credit: https://www.geeksforgeeks.org/recursion/
         static int Factorial(int n)         //New method for Factorials                                                              <       
         {                                    //                                                                                      | 
             if (n == 0)                     //IF the int n is equal to 0 return 1                                                    |   
